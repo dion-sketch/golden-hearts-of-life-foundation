@@ -80,6 +80,14 @@ export default function Navbar() {
               <Button href="#contact" size="sm">
                 Request Services
               </Button>
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=NCBRZBZP3EDZE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 font-semibold rounded-full px-5 py-2.5 text-sm bg-sage-500 text-white hover:bg-sage-600 transition-all duration-300 hover:-translate-y-0.5"
+              >
+                Donate Now
+              </a>
             </div>
 
             {/* Mobile Menu Button */}

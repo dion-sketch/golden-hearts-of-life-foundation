@@ -7,6 +7,7 @@ import Services from './components/sections/Services';
 import Quote from './components/sections/Quote';
 import Impact from './components/sections/Impact';
 import Founder from './components/sections/Founder';
+import Donate from './components/sections/Donate';
 import FAQ from './components/sections/FAQ';
 import ContactCTA from './components/sections/ContactCTA';
 
@@ -22,6 +23,7 @@ function App() {
         <Quote />
         <Impact />
         <Founder />
+        <Donate />
         <FAQ />
         <ContactCTA />
       </main>

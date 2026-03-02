@@ -116,10 +116,18 @@ export default function MobileMenu({ onClose }) {
               ))}
             </ul>
 
-            <motion.div variants={itemVariants} className="mt-8">
+            <motion.div variants={itemVariants} className="mt-6 space-y-3">
               <Button href="#contact" className="w-full" onClick={handleLinkClick}>
                 Request Services
               </Button>
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=NCBRZBZP3EDZE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-flex items-center justify-center gap-2 font-semibold rounded-full px-6 py-3 text-base bg-sage-500 text-white hover:bg-sage-600 transition-all duration-300"
+              >
+                Donate Now
+              </a>
             </motion.div>
           </motion.nav>
 
